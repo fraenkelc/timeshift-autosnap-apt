@@ -1,5 +1,6 @@
-timeshift-autosnap-apt (0~2408302357-1) UNRELEASED; urgency=low
+timeshift-autosnap-apt (0~2408302357-1) jammy; urgency=medium
 
+  [ Christian Fraenkel ]
   * Initial release.
 
- -- Christian Fraenkel <fraenkelc+launchpad@mailbox.org>  Sat, 31 Aug 2024 01:57:21 +0200
+ -- Christian Fränkel <fraenkelc+launchpad@mailbox.org>  Sun, 01 Sep 2024 01:40:11 +0200

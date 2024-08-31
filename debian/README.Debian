@@ -1,0 +1,7 @@
+timeshift-autosnap-apt for Debian
+
+Timeshift auto-snapshot script which runs before any apt
+update|install|remove command using a DPkg::Pre-Invoke hook in APT.
+Works best in BTRFS mode, but RSYNC is also supported (might be slow though).
+
+ -- Christian Fränkel <fraenkelc+launchpad@mailbox.org>  Sat, 31 Aug 2024 01:57:21 +0200

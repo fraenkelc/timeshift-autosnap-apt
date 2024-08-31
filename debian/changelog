@@ -1,0 +1,5 @@
+timeshift-autosnap-apt (0~2408302357-1) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Christian Fraenkel <fraenkelc+launchpad@mailbox.org>  Sat, 31 Aug 2024 01:57:21 +0200

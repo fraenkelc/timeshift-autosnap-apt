@@ -1,0 +1,17 @@
+Source: timeshift-autosnap-apt
+Section: universe/utils
+Priority: optional
+Maintainer: Christian Fränkel <fraenkelc+launchpad@mailbox.org>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.5.0
+Homepage: https://github.com/wmutschl/timeshift-autosnap-apt
+
+Package: timeshift-autosnap-apt
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Timeshift auto-snapshot script which runs before any
+ apt update|install|remove command using a DPkg::Pre-Invoke hook in APT.
+ Works best in BTRFS mode, but RSYNC is also supported (might be slow though).
+
+
